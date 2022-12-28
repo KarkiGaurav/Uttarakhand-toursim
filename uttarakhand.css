@@ -24,20 +24,18 @@ body {
 
                                             /* css for header section  */
 
-
-.header{
+.header {
+    position: fixed;
     background-color: rgba(26, 24, 24, 0.788);
-    
     height: 50px;
-    position: sticky;
+    width: 100%;
+    z-index: 999;
     top: 0%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Poppins', sans-serif;
-    
 }
-
 
 .nav-bar{
     cursor: pointer;
@@ -1039,7 +1037,13 @@ input[type] {
         color: wheat;
     }
     .header{
-        position: relative;
+        position: fixed;
+        background-color: rgba(26, 24, 24, 0.788);
+        height: 50px;
+        width: 100%;
+        z-index: 999;
+        top: 0%;
+        
     }
     .navbar{
         width: 100%;
