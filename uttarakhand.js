@@ -59,7 +59,7 @@ const counters = document.querySelectorAll(".counter");
     alert("your booking is done 😍");
   }
   const masg =  document.getElementById("book-btn");
-  masg.addEventListener("click", massage());
+  masg.addEventListener("click", massage);
 
                                
                                    // contact
